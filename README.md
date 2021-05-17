@@ -2,8 +2,6 @@
 # Statistical Distributions
 
 
-<!-- Function to add Histogram : Created by Priya: 13-04-21 -->
-
 Prerequisites
 -------------
 Matplotlib is required to generate and view distribution graphs
@@ -22,11 +20,3 @@ import numpy;
 import matplotlib.pyplot;
 import seaborn as sns;
 ```
----
-Calculations:
-```
-*Variance 
-*Histogram
-*Median
-*Housing    
-*Guassian
