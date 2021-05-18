@@ -1,6 +1,6 @@
 import math
-import matplotlip.pyplot as py
-from .Generaldistribution import Distribution
+import matplotlib.pyplot as py
+from Generaldistribution import Distribution
 
 
 
@@ -18,7 +18,7 @@ class Binomial(Distribution):
 
     def __init__(self, prob = 0.5, size = 20):
 
-        Distribution.__inti__(self, self.calculate_mean(), self.calculate_stdev)
+        Distribution.__init__(self, self.calculate_mean(), self.calculate_stdev)
 
         self.p = prob
         self.n = size
