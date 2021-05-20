@@ -1,13 +1,14 @@
 
-# Statistical Distributions
+# Statistical Tool
 
 
 Prerequisites
 -------------
-Matplotlib is required to generate and view distribution graphs
+Numpy and Matplotlib are required to generate and view distribution graphs
 
 ```
 pip install matplotlib
+pip install numpy
 
 ```
 ---
@@ -20,3 +21,4 @@ import numpy;
 import matplotlib.pyplot;
 import seaborn as sns;
 ```
+---
