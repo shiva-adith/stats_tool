@@ -17,6 +17,12 @@ def calc_mean():
     display_label.config(text=f"{result}")
 
 
+def calc_sum():
+    numbers = [float(num) for num in entry_field.get().split()]
+    result = sum.summation(numbers)
+    display_label.config(text=f"{result}")
+
+
 # Labels:
 entry_label = Label(text="Enter the numbers")
 entry_label.config(padx=15, pady=15)
@@ -35,5 +41,8 @@ entry_field.grid(column=1, row=0)
 # Buttons:
 calculate_button = Button(text="Calculate", command=calc_mean)
 calculate_button.grid(column=1, row=1)
+
+sum_button = Button(text="Sum", command=calc_sum)
+sum_button.grid(column=2, row=1)
 
 window.mainloop()
